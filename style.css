@@ -33,7 +33,7 @@ h1{
 
   position: relative;
   top: -90px;
-  right: -614px;
+  right: -548px;
 }
 
 .button:hover{
@@ -64,4 +64,17 @@ h1{
 
 .container1{
   background-color: #2F303A;
+}
+
+footer{
+  background-color: #2F303A;
+  color: #fff;
+}
+
+.gmail{
+  color: #949393;
+}
+
+.number-info{
+  color: #949393;
 }
