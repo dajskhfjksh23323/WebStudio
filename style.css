@@ -1,80 +1,101 @@
-body{
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-}
-.studiotext{
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-}
-
-.studiotext:hover{
-  color: #2196F3;
-}
-
-h1{
-  font-weight: 900;
-  font-size: 37px;
+body {
   font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
 }
 
-.button{
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.start-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+}
+
+.studio-text:hover {
+  color: #2196F3;
+}
+
+.button {
   color: #fff;
   background-color: #2196F3;
   padding: 15px 20px;
   border-radius: 4%;
-  transform: none;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 16px;
   border: none;
   transition: 0.2s;
-
   position: relative;
   top: -90px;
   right: -548px;
 }
 
-.button:hover{
-    background-color: #2789d8;
-    transition: 0.2s;
+.button:hover {
+  background-color: #2789d8;
 }
 
-.start-text{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.studioimg{
+.studioimg {
   width: 160px;
   height: auto;
 }
 
-.menu{
-  display: flex;
-  gap: 30px;
-}
-
-.contacts{
+.contacts {
   display: flex;
   gap: 4px;
 }
 
-.container1{
+.gmail, .number-info {
+  color: #949393;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container1, footer {
   background-color: #2F303A;
 }
 
-footer{
-  background-color: #2F303A;
+footer {
   color: #fff;
 }
 
-.gmail{
-  color: #949393;
+.komanda{
+  font-weight: 500;
+  font-size: 16px;
+  color: #757575;
 }
 
-.number-info{
-  color: #949393;
+.komanda2 {
+  font-weight: 500;
+  font-size: 16px;
 }
