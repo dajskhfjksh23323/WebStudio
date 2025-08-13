@@ -8,26 +8,31 @@ body {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
+  line-height: 1.2;
 }
 
 .section-title {
   font-weight: 700;
   font-size: 14px;
+  line-height: 1.4;
 }
 
 .section-text {
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.5;
 }
 
 .services-title, .ourTeam-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.2;
 }
 
 .footer-address {
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.4;
 }
 
 .start-text {
@@ -36,6 +41,7 @@ body {
   align-items: center;
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.4;
 }
 
 .start-text-logo {
@@ -51,6 +57,7 @@ body {
 
 .start-text-menu {
   cursor: pointer;
+  line-height: 1.4;
 }
 
 .start-text-menu:hover {
@@ -63,11 +70,12 @@ body {
   color: #949393;
   font-weight: 400;
   font-size: 14px;
-  cursor: pointer;          /* добавлено */
+  cursor: pointer;
+  line-height: 1.5;
 }
 
 .start-text-contacts:hover {
-  color: #2196F3;           /* добавлено */
+  color: #2196F3;
 }
 
 .container1 {
@@ -106,12 +114,14 @@ body {
 .team-member-name {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.4;
 }
 
 .team-member-role {
   font-weight: 500;
   font-size: 16px;
   color: #757575;
+  line-height: 1.4;
 }
 
 .footer {
@@ -129,4 +139,14 @@ body {
   color: #949393;
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.5;
+}
+
+.custom-box{
+  width: 350px;       
+  height: 220px;          
+  padding: 15px 10px 20px 10px;
+  margin-bottom: 30px;   
+  border: 2px dashed red;
+  background-color: green;
 }
