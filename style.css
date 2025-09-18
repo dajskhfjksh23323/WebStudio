@@ -2,25 +2,22 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container1-title {
-  font-weight: 900;
-  font-size: 44px;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 1.2;
+.container {
+  max-width: 1600px;
 }
 
 .section-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
+  color: #212121;
 }
 
 .section-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
+  cursor: #757575;
 }
 
 .services-title, .ourTeam-title {
@@ -31,74 +28,7 @@ body {
 
 .footer-address {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.4;
-}
-
-.start-text {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.4;
-}
-
-.start-text-logo {
-  width: 160px;
-  height: auto;
-}
-
-.start-text > nav {
-  display: flex;
-  gap: 30px;
-  font-weight: 500;
-}
-
-.start-text-menu {
-  cursor: pointer;
-  line-height: 1.4;
-}
-
-.start-text-menu:hover {
-  color: #2196F3;
-}
-
-.start-text-contacts {
-  display: flex;
-  gap: 4px;
-  color: #949393;
-  font-weight: 400;
-  font-size: 14px;
-  cursor: pointer;
-  line-height: 1.5;
-}
-
-.start-text-contacts:hover {
-  color: #2196F3;
-}
-
-.container1 {
-  background-color: #2F303A;
-}
-
-.container1-button {
-  color: #fff;
-  background-color: #2196F3;
-  padding: 15px 20px;
-  border-radius: 4%;
-  font-weight: 700;
-  font-size: 16px;
-  border: none;
-  transition: 0.2s;
-  position: relative;
-  top: -90px;
-  right: -548px;
-  cursor: pointer;
-}
-
-.container1-button:hover {
-  background-color: #2789d8;
 }
 
 .services-img {
@@ -107,8 +37,7 @@ body {
 }
 
 .team-member-photo {
-  display: block;
-  margin-bottom: 5px;
+  width: 500px;
 }
 
 .team-member-name {
@@ -127,7 +56,7 @@ body {
 .footer {
   background-color: #2F303A;
   color: #fff;
-  padding: 20px;
+  padding: 70px 215px 40px;
 }
 
 .footer-Studiologo {
@@ -135,10 +64,134 @@ body {
   margin-bottom: 10px;
 }
 
-.footer-email, .footer-phone {
+.footer-email, .footer-phone { 
   color: #949393;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
 }
 
+.containerHW {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.containerHW-logo {
+  width: 160px;
+  height: auto;
+  margin-top: 24px;
+  margin-left: 215px;
+}
+
+.containerHW > nav {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+}
+
+.containerHW-menu {
+  cursor: pointer;
+  line-height: 1.4;
+  color: #212121;
+  font-weight: 500;
+  margin-left: -260px;
+}
+
+.containerHW-menu:hover {
+  color: #2196F3;
+}
+
+.containerHW-contacts {
+  display: flex;
+  gap: 4px;
+  color: #949393;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 1.5;
+  margin-right: 50px;
+}
+
+.containerHW-contacts:hover {
+  color: #2196F3;
+}
+
+.containerHW2 {
+  background-color: #2F303A;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 190px 452px 200px;
+}
+
+.containerHW2-button {
+  color: #fff;
+  background-color: #2196F3;
+  padding: 15px 20px;
+  border-radius: 4%;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  transition: 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+
+.containerHW2-button:hover {
+  background-color: #2789d8;
+}
+
+.containerHW2-title {
+  font-weight: 900;
+  font-size: 43px;
+  color: #fff;
+  text-align: center;
+  /* text-transform: uppercase; */
+  line-height: 1.2;
+}
+
+.containerHW3 {
+  padding: 94px 215px 94px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.containerHW4{
+  text-align: center;
+}
+
+.containerHW4, h2 {
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  /* justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; */
+}
+
+.team-member {
+  width: 270px;
+  margin-bottom: 20px;
+}
+
+.team-member-photo {
+  width: 250px;
+}
+
+.start-text-logo{
+  margin-left: 190px;
+}
+
+.containerHW5{
+  padding: 94px 0 94px;
+  background-color: #F5F4FA;
+}
+
+.containeHW4{
+  margin-bottom: 94px;
+}
