@@ -3,24 +3,27 @@ body {
 }
 
 .container {
-  max-width: 1600px;
+  padding: 0 215px;
 }
 
-.section-title {
+.features{
+  display: flex;
+}
+.features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
   color: #212121;
 }
 
-.section-text {
+.features-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   cursor: #757575;
 }
 
-.services-title, .ourTeam-title {
+.ourTeam-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -31,9 +34,25 @@ body {
   line-height: 1.4;
 }
 
+.services-title{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #212121;
+}
+
+.services{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: -65px;
+}
+
 .services-img {
+  display: flex;
   max-width: 100%;
   height: auto;
+  margin-bottom: 25px;
 }
 
 .team-member-photo {
@@ -71,27 +90,26 @@ body {
   line-height: 1.5;
 }
 
-.containerHW {
+.header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px 0;
 }
 
-.containerHW-logo {
+.start-text-logo {
   width: 160px;
   height: auto;
-  margin-top: 24px;
   margin-left: 215px;
 }
 
-.containerHW > nav {
+.header > nav {
   display: flex;
   gap: 30px;
   font-weight: 500;
 }
 
-.containerHW-menu {
+.header-menu {
   cursor: pointer;
   line-height: 1.4;
   color: #212121;
@@ -99,11 +117,11 @@ body {
   margin-left: -260px;
 }
 
-.containerHW-menu:hover {
+.header-menu-item:hover {
   color: #2196F3;
 }
 
-.containerHW-contacts {
+.header-contacts {
   display: flex;
   gap: 4px;
   color: #949393;
@@ -114,11 +132,11 @@ body {
   margin-right: 50px;
 }
 
-.containerHW-contacts:hover {
+.header-contacts-item:hover {
   color: #2196F3;
 }
 
-.containerHW2 {
+.hero {
   background-color: #2F303A;
   height: 100%;
   display: flex;
@@ -127,7 +145,7 @@ body {
   padding: 190px 452px 200px;
 }
 
-.containerHW2-button {
+.hero-button {
   color: #fff;
   background-color: #2196F3;
   padding: 15px 20px;
@@ -140,11 +158,11 @@ body {
   cursor: pointer;
 }
 
-.containerHW2-button:hover {
+.hero-button:hover {
   background-color: #2789d8;
 }
 
-.containerHW2-title {
+.hero-title {
   font-weight: 900;
   font-size: 43px;
   color: #fff;
@@ -153,17 +171,17 @@ body {
   line-height: 1.2;
 }
 
-.containerHW3 {
+.features {
   padding: 94px 215px 94px;
   display: flex;
   flex-wrap: nowrap;
 }
 
-.containerHW4{
+.services{
   text-align: center;
 }
 
-.containerHW4, h2 {
+.services, h2 {
   text-align: center;
 }
 
@@ -183,15 +201,11 @@ body {
   width: 250px;
 }
 
-.start-text-logo{
-  margin-left: 190px;
-}
-
-.containerHW5{
+.team{
   padding: 94px 0 94px;
   background-color: #F5F4FA;
 }
 
-.containeHW4{
+.services{
   margin-bottom: 94px;
 }
